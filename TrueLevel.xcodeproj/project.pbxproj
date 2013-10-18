@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		329223551810B894008BF9A0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 329223541810B894008BF9A0 /* LICENSE */; };
+		329223571810B89C008BF9A0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 329223561810B89C008BF9A0 /* README.md */; };
 		D358C928180FB44C007480ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D358C927180FB44C007480ED /* Foundation.framework */; };
 		D358C92A180FB44C007480ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D358C929180FB44C007480ED /* CoreGraphics.framework */; };
 		D358C92C180FB44C007480ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D358C92B180FB44C007480ED /* UIKit.framework */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		329223541810B894008BF9A0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		329223561810B89C008BF9A0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		D358C924180FB44C007480ED /* TrueLevel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueLevel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D358C927180FB44C007480ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D358C929180FB44C007480ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -130,18 +134,20 @@
 		D358C92D180FB44C007480ED /* TrueLevel */ = {
 			isa = PBXGroup;
 			children = (
-				D34104AE180FB9FF00A606D3 /* Third Party */,
-				D3D6D075180FB562006A4EC1 /* Main_iPhone.storyboard */,
-				D3D6D066180FB4EB006A4EC1 /* DoubleLevel.h */,
-				D3D6D067180FB4EB006A4EC1 /* DoubleLevel.m */,
-				D3D6D068180FB4EB006A4EC1 /* Level.h */,
-				D3D6D069180FB4EB006A4EC1 /* Level.m */,
-				D3D6D06C180FB4EB006A4EC1 /* MotionManager.h */,
-				D3D6D06D180FB4EB006A4EC1 /* MotionManager.m */,
 				D358C936180FB44C007480ED /* AppDelegate.h */,
 				D358C937180FB44C007480ED /* AppDelegate.m */,
+				D3D6D066180FB4EB006A4EC1 /* DoubleLevel.h */,
+				D3D6D067180FB4EB006A4EC1 /* DoubleLevel.m */,
 				D358C93F180FB44C007480ED /* Images.xcassets */,
+				D3D6D068180FB4EB006A4EC1 /* Level.h */,
+				D3D6D069180FB4EB006A4EC1 /* Level.m */,
+				329223541810B894008BF9A0 /* LICENSE */,
+				D3D6D075180FB562006A4EC1 /* Main_iPhone.storyboard */,
+				D3D6D06C180FB4EB006A4EC1 /* MotionManager.h */,
+				D3D6D06D180FB4EB006A4EC1 /* MotionManager.m */,
+				329223561810B89C008BF9A0 /* README.md */,
 				D358C92E180FB44C007480ED /* Supporting Files */,
+				D34104AE180FB9FF00A606D3 /* Third Party */,
 			);
 			path = TrueLevel;
 			sourceTree = "<group>";
@@ -253,6 +259,8 @@
 			files = (
 				D3D6D077180FB562006A4EC1 /* Main_iPhone.storyboard in Resources */,
 				D358C940180FB44C007480ED /* Images.xcassets in Resources */,
+				329223571810B89C008BF9A0 /* README.md in Resources */,
+				329223551810B894008BF9A0 /* LICENSE in Resources */,
 				D358C932180FB44C007480ED /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +415,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TrueLevel/TrueLevel-Prefix.pch";
 				INFOPLIST_FILE = "TrueLevel/TrueLevel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -420,6 +429,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TrueLevel/TrueLevel-Prefix.pch";
 				INFOPLIST_FILE = "TrueLevel/TrueLevel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
